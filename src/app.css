@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  background-image: url('./assets/background.jpg'); /* Asegúrate de que el nombre del archivo coincida con el nombre de la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-main {
+  padding: 20px;
+  color: white;
+}
