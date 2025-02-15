@@ -1,3 +1,4 @@
+import './index.css'; // Importar Tailwind CSS
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
