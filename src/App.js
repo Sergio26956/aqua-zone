@@ -1,23 +1,23 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Home from './pages/Home';
-import music from '../public/background-music.mp3';
+import './styles/App.css';
 
-function App() {
-  useEffect(() => {
-    const audio = new Audio(music);
-    audio.play();
-    return () => audio.pause();
-  }, []);
-
+const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <Home />
+      <main>
+        <Home />
+        <About />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
