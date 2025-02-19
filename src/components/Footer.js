@@ -1,13 +1,12 @@
 import React from 'react';
+import './Footer.css';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className="bg-blue-700 p-4 text-white mt-8">
-      <div className="container mx-auto text-center">
-        <p>&copy; 2025 AQUAZONE. Todos los derechos reservados.</p>
-      </div>
+    <footer className="footer">
+      <p>&copy; 2025 Aqua Zone. All rights reserved.</p>
     </footer>
   );
-}
+};
 
 export default Footer;
