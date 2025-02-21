@@ -1,19 +1,42 @@
-# AQUAZONE
+# Aqua Zone
 
-Descripción del proyecto AQUAZONE.
+Welcome to Aqua Zone, your go-to place for all things related to aquatic life.
 
-## Instalación
+## Getting Started
 
-Instrucciones para instalar y configurar el proyecto.
+To get started with the project, clone the repository and install the dependencies:
 
-## Uso
+```bash
+git clone https://github.com/tu-usuario/aqua-zone.git
+cd aqua-zone
+npm install
+```
 
-Instrucciones para usar el proyecto.
+## Available Scripts
 
-## Contribuir
+In the project directory, you can run:
 
-Guía para contribuir al proyecto.
+### `npm start`
 
-## Licencia
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Información sobre la licencia del proyecto.
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+## Deployment
+
+This project uses GitHub Pages for deployment. The `deploy` script is configured to automatically deploy the `build` folder to the `gh-pages` branch.
+
+## Learn More
+
+To learn more about React, check out the [React documentation](https://reactjs.org/).
