@@ -7,7 +7,7 @@ Welcome to Aqua Zone, your go-to place for all things related to aquatic life.
 To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/tu-usuario/aqua-zone.git
+git clone https://github.com/Sergio26956/aqua-zone.git
 cd aqua-zone
 npm install
 ```
