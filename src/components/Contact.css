@@ -1,0 +1,13 @@
+/* Estilos para el componente Contact */
+.contact {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.contact h2 {
+  color: #333;
+}
+
+.contact p {
+  color: #666;
+}
