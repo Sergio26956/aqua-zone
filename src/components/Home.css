@@ -1,0 +1,13 @@
+/* Estilos para el componente Home */
+.home {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.home h2 {
+  color: #333;
+}
+
+.home p {
+  color: #666;
+}
