@@ -26,12 +26,12 @@ jobs:
 
     - name: Configure Git
       run: |
-        git config --global user.email "tu@ejemplo.com"
-        git config --global user.name "Tu nombre"
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
 
     - name: Deploy to GitHub Pages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         npm run deploy
