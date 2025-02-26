@@ -1,14 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client'; // Cambié esto
-import './styles/index.css';
-import App from './App';
+import ReactDOM from 'react-dom';
+import './index.css';  // Si index.css está en la raíz de 'src'
+import App from './App';  // Si App.js está en la raíz de 'src'
 
-// Crear un root para la aplicación
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-// Renderizar el componente <App />
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <App />  {/* Este es tu componente principal que se renderiza en el div con id 'root' */}
+  </React.StrictMode>,
+  document.getElementById('root')  // Este es el div en el archivo index.html donde se renderiza la app
 );
